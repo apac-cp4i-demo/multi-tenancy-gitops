@@ -18,16 +18,15 @@ spec:
     helm:
       values: |
         refarch-machinesets:
-          infrastructureId: "mcm-aiops-argocd-477kl"
+          infrastructureId: "aws-cluster-sp-b7zv8"
           # cloudProvider.name set to aws, azure or vsphere
           cloudProvider:
             name: "aws" 
             managed: false
           # only for "aws" or "azure" maybe "gcp"
           cloud:
-            region: ap-southeast-2
-            zones: ap-southeast-2a
-            image: ami-0c0a4abd2fb06aaec
+            region: ap-southeast-1
+            image: ami-04e2280104f031ece
           # only for "vsphere" - ignored for other
           vsphere:
             networkName: ${VS_NETWORK}

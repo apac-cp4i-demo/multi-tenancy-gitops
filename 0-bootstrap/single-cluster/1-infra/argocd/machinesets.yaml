@@ -26,6 +26,7 @@ spec:
           # only for "aws" or "azure" maybe "gcp"
           cloud:
             region: ap-southeast-2
+            zones: ap-southeast-2a
             image: ami-0c0a4abd2fb06aaec
           # only for "vsphere" - ignored for other
           vsphere:

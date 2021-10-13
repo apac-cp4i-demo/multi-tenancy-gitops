@@ -28,7 +28,7 @@ spec:
             region: ap-southeast-1
             image: ami-04e2280104f031ece
             cloudpakNodes:
-              nodeCount: 3
+              nodeCount: 1
           # only for "vsphere" - ignored for other
           vsphere:
             networkName: ${VS_NETWORK}

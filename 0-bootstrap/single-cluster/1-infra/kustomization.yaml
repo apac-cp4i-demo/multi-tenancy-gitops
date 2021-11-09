@@ -24,7 +24,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://github.com/cp4i-cloudpak/multi-tenancy-gitops-infra.git
+      value: https://github.com/apac-cp4i-demo/multi-tenancy-gitops-infra.git
     - op: add
       path: /spec/source/targetRevision
       value: master

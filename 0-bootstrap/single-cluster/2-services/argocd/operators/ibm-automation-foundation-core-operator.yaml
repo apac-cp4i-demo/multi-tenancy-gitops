@@ -23,7 +23,7 @@ spec:
             ibmautomation:
               name: ibm-automation-foundation-core
               subscription:
-                channel: v1.2
+                channel: v1.1
                 installPlanApproval: Automatic
                 name: ibm-automation-core
                 source: iaf-core-operators
